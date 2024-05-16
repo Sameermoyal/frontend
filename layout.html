@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.461);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        box-sizing: border-box;
+       
+      }
+      .header {
+        height: 13%;
+        background-color:#7860DC;
+      }
+      .footer {
+        height: 13%;
+        background-color: #7860DC;
+      }
+      .main {
+        display: flex;
+        justify-content: space-between;
+        height: 70%;
+      }
+      .navbar {
+        height: 100%;
+        background-color: rgb(135, 235, 210);
+        width: 14%;
+      }
+
+      .content {letter-spacing: normal;
+        height: 100%;
+        width: 85%;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .content1 {
+        height: 48%;
+        width: 100%;
+        background-color: #546EE4;
+      }
+      .innercontent{
+        height: 48%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      .content2 {
+        height: 100%;
+        width: 49%;
+        background-color: #546EE4;
+      }
+      .content3 {
+        height: 100%;
+        width: 49%;
+        background-color: #546EE4;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">Header</div>
+
+      <div class="main">
+        <div class="navbar">navbar</div>
+
+        <div class="content">
+          <div class="content1">content1</div>
+          <div class="innercontent">
+            <div class="content2">content2</div>
+            <div class="content3">content3</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">footer</div>
+    </div>
+  </body>
+</html>
